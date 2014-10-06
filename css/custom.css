@@ -1,0 +1,45 @@
+/*Use this for Custom CSS*/
+h3{
+	margin-top:5px;
+	margin-bottom:0px;
+}
+h4{
+	margin-bottom:0px;
+}
+h5{
+	margin-bottom:0px;
+}
+h6{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contact{
+	font-weight:600;
+}
+
+.shakes{
+	/*margin-top:-300px;*/
+}
+.icecreamextras{
+	margin-top:-940px;
+}
+.salads{
+margin-top: -400px;
+}
+
+.socialmedialinks{
+	margin-top:-1050px;
+	margin-left:10px;
+}
+.maps{
+	margin-left:10px;
+}
+
+.fries{
+	/*margin-top: -400px;*/
+}
+
+/*div.salads{
+	margin-top:-200px;
+}*/
