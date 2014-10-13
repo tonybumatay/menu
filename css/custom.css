@@ -28,6 +28,9 @@ p {
 a{
 	color:black;
 }
+body{
+	font-family: 'PT Serif', serif;
+}
 .navbar-nav>li>a {
 padding-top: 35px;
 padding-bottom: 44px;
@@ -144,6 +147,7 @@ p.icecream{
   	min-height: 100%;
  	min-width: 768px;
 }	
+
 
 }
 
