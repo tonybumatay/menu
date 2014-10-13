@@ -25,6 +25,9 @@ p {
 	margin-top:2px;
 	margin-bottom:2px;
 }
+a{
+	color:black;
+}
 .navbar-nav>li>a {
 padding-top: 35px;
 padding-bottom: 44px;
@@ -34,6 +37,12 @@ font-size: 24px;
 font-weight:500px;
 
 }
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: black;
+background-color: #FAF291;
+}
+
 .contact{
 	font-weight:600;
 }
@@ -71,6 +80,8 @@ margin-left: 15%;
 	bottom:5px;
 	margin-left:20%;
 	background-color:white;
+	opacity:.8;
+	padding-right:20px;
 }
 p.icecream{
 	margin-bottom:0px;
@@ -78,12 +89,15 @@ p.icecream{
 }
 .burgers{
 	background-color:#D1D1D1;
+	opacity:.8;
 }
 .snacks{
 	background-color: #D1D1D1;
+	opacity:.8;
 }
 .shakes{
 	background-color: #D1D1D1;
+	opacity:.8;
 }
 .shakesheader{
 	text-align: center;
@@ -92,12 +106,36 @@ p.icecream{
 	text-align: center;
 }
 
+.contactus{
+	font-color:white;
+	text-align: center;
+	background-color: white;
+	opacity: .75;
+
+}
+
+.hours{
+	text-align: center;
+	font-color:white;
+	background-color: white;
+	opacity:.75;
+}
+
+.pillcentered{
+	padding-top:15px;
+	padding-bottom:15px;
+	color:black;
+
+}
 
 .nav-pills{
-	margin-top:15%;
+	margin-top:10%;
 	opacity:.8;
 	background-color: white;
 	border:2px solid black;
+	padding-left:5px;
+	padding-right:5px;
+
 }
 @media(min-width:768px){
 .homepage{
@@ -106,6 +144,7 @@ p.icecream{
   	min-height: 100%;
  	min-width: 768px;
 }	
+
 }
 
 @media(max-width:768px){
@@ -114,6 +153,9 @@ p.icecream{
 	background-size: cover;
   	min-height: 100%;
 }	
+.hidethissmall{
+	display:none;
+}
 }
 @media (max-width:768px) { 
 .navlogo{
