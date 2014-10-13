@@ -14,18 +14,49 @@ h6{
 	margin-bottom: 0px;
 }
 
+ul{
+   text-align: center;
+    }
+hr{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+p {
+	margin-top:2px;
+	margin-bottom:2px;
+}
+.navbar-nav>li>a {
+padding-top: 35px;
+padding-bottom: 44px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 24px;
+font-weight:500px;
+
+}
 .contact{
 	font-weight:600;
 }
+@media (min-width:1000px){
+.nav{
+margin-left: 15%;
+}
+}
 
-.shakes{
-	/*margin-top:-300px;*/
+
+.navbarlogo{
+	position:fixed;
+	top:-100px;
 }
-.icecreamextras{
-	margin-top:-940px;
+.navlogo{
+	padding-top:5px;
+	padding-bottom:5px;
 }
-.salads{
-margin-top: -400px;
+.sandsheader{
+	text-align: center;
+}
+.basicburger{
+	margin-left:5px; 
 }
 
 .socialmedialinks{
@@ -35,11 +66,58 @@ margin-top: -400px;
 .maps{
 	margin-left:10px;
 }
-
-.fries{
-	/*margin-top: -400px;*/
+.footer{
+	position:absolute;
+	bottom:5px;
+	margin-left:20%;
+	background-color:white;
+}
+p.icecream{
+	margin-bottom:0px;
+	font-color:red;
+}
+.burgers{
+	background-color:#D1D1D1;
+}
+.snacks{
+	background-color: #D1D1D1;
+}
+.shakes{
+	background-color: #D1D1D1;
+}
+.shakesheader{
+	text-align: center;
+}
+.burgerheaders{
+	text-align: center;
 }
 
-/*div.salads{
-	margin-top:-200px;
-}*/
+
+.nav-pills{
+	margin-top:15%;
+	opacity:.8;
+	background-color: white;
+	border:2px solid black;
+}
+@media(min-width:768px){
+.homepage{
+	background-image: url("https://scottandalliebuyahouse.files.wordpress.com/2014/08/11-summer-2014.jpg") no-repeat center center fixed;
+  	background-size: cover;
+  	min-height: 100%;
+ 	min-width: 768px;
+}	
+}
+
+@media(max-width:768px){
+.homepage{
+	background-image: url("http://reubenmiller.typepad.com/.a/6a00d8341ca70953ef016760ed2c00970b-500wi");
+	background-size: cover;
+  	min-height: 100%;
+}	
+}
+@media (max-width:768px) { 
+.navlogo{
+display:none;
+}
+}
+
