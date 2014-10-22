@@ -1,0 +1,169 @@
+/*Use this for Custom CSS*/
+h3{
+	margin-top:5px;
+	margin-bottom:0px;
+}
+h4{
+	margin-bottom:0px;
+}
+h5{
+	margin-bottom:0px;
+}
+h6{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+ul{
+   text-align: center;
+    }
+hr{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+p {
+	margin-top:2px;
+	margin-bottom:2px;
+}
+a{
+	color:black;
+}
+body{
+	font-family: 'PT Serif', serif;
+}
+.navbar-nav>li>a {
+padding-top: 35px;
+padding-bottom: 44px;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 24px;
+font-weight:500px;
+
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+color: black;
+background-color: #FAF291;
+}
+
+.contact{
+	font-weight:600;
+}
+@media (min-width:1000px){
+.nav{
+margin-left: 15%;
+}
+}
+
+
+.navbarlogo{
+	position:fixed;
+	top:-100px;
+}
+.navlogo{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.sandsheader{
+	text-align: center;
+}
+.basicburger{
+	margin-left:5px; 
+}
+
+.socialmedialinks{
+	margin-top:-1050px;
+	margin-left:10px;
+}
+.maps{
+	margin-left:10px;
+}
+.footer{
+	position:absolute;
+	bottom:5px;
+	margin-left:20%;
+	background-color:white;
+	opacity:.8;
+	padding-right:20px;
+}
+p.icecream{
+	margin-bottom:0px;
+	font-color:red;
+}
+.burgers{
+	background-color:#D1D1D1;
+	opacity:.8;
+}
+.snacks{
+	background-color: #D1D1D1;
+	opacity:.8;
+}
+.shakes{
+	background-color: #D1D1D1;
+	opacity:.8;
+}
+.shakesheader{
+	text-align: center;
+}
+.burgerheaders{
+	text-align: center;
+}
+
+.contactus{
+	font-color:white;
+	text-align: center;
+	background-color: white;
+	opacity: .75;
+
+}
+
+.hours{
+	text-align: center;
+	font-color:white;
+	background-color: white;
+	opacity:.75;
+}
+
+.pillcentered{
+	padding-top:15px;
+	padding-bottom:15px;
+	color:black;
+
+}
+
+.nav-pills{
+	margin-top:10%;
+	opacity:.8;
+	background-color: white;
+	border:2px solid black;
+	padding-left:5px;
+	padding-right:5px;
+
+}
+@media(min-width:768px){
+.homepage{
+	background-image: url("https://scottandalliebuyahouse.files.wordpress.com/2014/08/11-summer-2014.jpg") no-repeat center center fixed;
+  	background-size: cover;
+  	min-height: 100%;
+ 	min-width: 768px;
+}	
+
+
+}
+
+@media(max-width:768px){
+.homepage{
+	background-image: url("http://reubenmiller.typepad.com/.a/6a00d8341ca70953ef016760ed2c00970b-500wi");
+	background-size: cover;
+  	min-height: 100%;
+}	
+.hidethissmall{
+	display:none;
+}
+}
+@media (max-width:768px) { 
+.navlogo{
+display:none;
+}
+}
+
