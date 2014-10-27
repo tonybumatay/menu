@@ -1,17 +1,34 @@
 /*Use this for Custom CSS*/
-h3{
+
+h1{
+	margin-top:20px;
+	margin-bottom:0px;
+	text-align: center;
+}
+
+h2{
 	margin-top:5px;
 	margin-bottom:0px;
+	text-align: center;
+}
+
+h3{
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align: center;
 }
 h4{
 	margin-bottom:0px;
+	text-align: center;
 }
 h5{
 	margin-bottom:0px;
+	text-align: center;
 }
 h6{
 	margin-top: 0px;
 	margin-bottom: 0px;
+	text-align: center;
 }
 
 ul{
@@ -48,13 +65,39 @@ background-color: #FAF291;
 
 .contact{
 	font-weight:600;
+	font-color:white;
 }
-@media (min-width:1000px){
+.aboutphoto {
+    outline:0;
+    max-width:75%;
+    height:auto;
+}
+
+/*@media (min-width:1000px){
 .nav{
 margin-left: 15%;
 }
+}*/
+
+.workpage{
+	background-color:#FFFAF0;
+}
+.about{
+	background-color:#FFFAF0;
+}
+@media(min-width:768px){
+.colright{
+	margin-left:-4%;
 }
 
+.workright{
+	margin-left:-15%;
+}
+}
+
+.btn{
+	margin-left:25%;
+}
 
 .navbarlogo{
 	position:fixed;
@@ -64,72 +107,7 @@ margin-left: 15%;
 	padding-top:5px;
 	padding-bottom:5px;
 }
-.sandsheader{
-	text-align: center;
-}
-.basicburger{
-	margin-left:5px; 
-}
 
-.socialmedialinks{
-	margin-top:-1050px;
-	margin-left:10px;
-}
-.maps{
-	margin-left:10px;
-}
-.footer{
-	position:absolute;
-	bottom:5px;
-	margin-left:20%;
-	background-color:white;
-	opacity:.8;
-	padding-right:20px;
-}
-p.icecream{
-	margin-bottom:0px;
-	font-color:red;
-}
-.burgers{
-	background-color:#D1D1D1;
-	opacity:.8;
-}
-.snacks{
-	background-color: #D1D1D1;
-	opacity:.8;
-}
-.shakes{
-	background-color: #D1D1D1;
-	opacity:.8;
-}
-.shakesheader{
-	text-align: center;
-}
-.burgerheaders{
-	text-align: center;
-}
-
-.contactus{
-	font-color:white;
-	text-align: center;
-	background-color: white;
-	opacity: .75;
-
-}
-
-.hours{
-	text-align: center;
-	font-color:white;
-	background-color: white;
-	opacity:.75;
-}
-
-.pillcentered{
-	padding-top:15px;
-	padding-bottom:15px;
-	color:black;
-
-}
 
 .nav-pills{
 	margin-top:10%;
@@ -141,8 +119,8 @@ p.icecream{
 
 }
 @media(min-width:768px){
-.homepage{
-	background-image: url("https://scottandalliebuyahouse.files.wordpress.com/2014/08/11-summer-2014.jpg") no-repeat center center fixed;
+.contact{
+	background-image: url("https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpf1/t31.0-8/1465732_669617773146051_4918851674607818568_o.jpg") no-repeat center center fixed;
   	background-size: cover;
   	min-height: 100%;
  	min-width: 768px;
@@ -152,18 +130,12 @@ p.icecream{
 }
 
 @media(max-width:768px){
-.homepage{
-	background-image: url("http://reubenmiller.typepad.com/.a/6a00d8341ca70953ef016760ed2c00970b-500wi");
-	background-size: cover;
-  	min-height: 100%;
+.contact{
+	background:transparent;
+	background-color:#FFFAF0;
 }	
-.hidethissmall{
-	display:none;
-}
-}
-@media (max-width:768px) { 
-.navlogo{
-display:none;
-}
+.colright{
+	margin-top:10px;
 }
 
+}
