@@ -121,6 +121,7 @@ margin-left: 15%;
 @media(min-width:768px){
 .contact{
 	background-image: url("https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xpf1/t31.0-8/1465732_669617773146051_4918851674607818568_o.jpg") no-repeat center center fixed;
+	background-position: 0px -100px;
   	background-size: cover;
   	min-height: 100%;
  	min-width: 768px;
