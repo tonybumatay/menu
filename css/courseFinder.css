@@ -1,0 +1,33 @@
+body {
+	font-family: 'Crimson Text', serif;
+	text-align: center;
+}
+table {
+	border: 1px solid black;
+	width:80%;
+	margin-left: 5%;
+}
+th {
+	border: 1px solid black;
+	text-align: center;
+}
+td{
+	border: 1px solid black;
+	height: 100px;
+}
+ul{
+	padding-left:20px;
+}
+li{
+	text-align: left;
+}
+.title {
+	    border-top: 1px solid black;
+}
+.instructor{
+	margin:0px;
+}
+
+.courseCode{
+	margin:0px;
+}
