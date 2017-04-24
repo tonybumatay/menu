@@ -21,7 +21,7 @@ function generateTable() {
   var end = $("#end option:selected").text();
   var dept = $("#dept option:selected").text();
   var days = $("#days option:selected").text();
-  var queryString = "34.200.240.84:3000/course?time=" + start + "&days=" + days + "&c=" + dept +
+  var queryString = "http://34.200.240.84:3000/course?time=" + start + "&days=" + days + "&c=" + dept +
   "&u=1";
   console.log(queryString);
 
@@ -87,7 +87,7 @@ function generateTable() {
             return this.indexOf(element) > -1;
         };
 
-        $.getJSON('http://34.200.240.84:3000/course?time=10:00A&days=M-W----&c=CSE&u=1',
+        $.getJSON(queryString,
          function( data ) {
            $.each(data, function(index, jsonObject) {
             console.log("This is Data: " + data);
