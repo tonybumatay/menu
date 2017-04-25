@@ -5,24 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Course Search</title>
-    <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/courseFinder.css" rel="stylesheet">
 </head>
 
 <body id = "body">
+  <div>
     <div class="col-sm-2">
+      <img src = "img/washu_seal.jpeg">
     </div>
     <div class="courseSearchDiv col-sm-8">
-        <h1>Fill My Schedule:</h1>
+        <h1>WUSTL Find-a-Class: A Super Awesome App</h1>
         <div class="selectionRow1">
           <div class = "col-sm-6">
             <h4>What days do you have available?</h4>
             <select id = "days">
-              <option value="MWF">M-W-F--</option>
-              <option value="MW">M-W----</option>
-              <option value="TR">-T-R---</option>
+              <option value="M-W----">M-W----</option>
+              <option value="-T-R---">-T-R---</option>
+              <option value="M-W-F--">M-W-F--</option>
+
             </select>
           </div>
           <div class = "col-sm-6">
@@ -42,60 +45,61 @@
           <div class="startTime col-sm-6">
             <h4>Course Start Time</h4>
             <select id = "start">
-              <option value="8_00A">08:00A</option>
-              <option value="8_30A">08:30A</option>
-              <option value="9_00A">09:00A</option>
-              <option value="9_30A">09:30A</option>
-              <option value="10_00A">10:00A</option>
-              <option value="10_30A">10:30A</option>
-              <option value="11_00A">11:00A</option>
-              <option value="11_30A">11:30A</option>
-              <option value="12_00P">12:00P</option>
-              <option value="12_30P">12:30P</option>
-              <option value="1_00P">1:00P</option>
-              <option value="1_30P">1:30P</option>
-              <option value="2_00P">2:00P</option>
-              <option value="2_30P">2:30P</option>
-              <option value="3_00P">3:00P</option>
-              <option value="3_30P">3:30P</option>
-              <option value="4_00P">4:00P</option>
-              <option value="4_30P">4:30P</option>
-              <option value="5_00P">5:00P</option>
-              <option value="5_30P">5:30P</option>
-              <option value="6_00P">6:00P</option>
-              <option value="6_30P">6:30P</option>
-              <option value="7_00P">7:00P</option>
-              <option value="7_30P">7:30P</option>
+              <option value="8:00A">08:00A</option>
+              <option value="8:30A">08:30A</option>
+              <option value="9:00A">09:00A</option>
+              <option value="9:30A">09:30A</option>
+              <option value="10:00A">10:00A</option>
+              <option value="10:30A">10:30A</option>
+              <option value="11:00A">11:00A</option>
+              <option value="11:30A">11:30A</option>
+              <option value="12:00P">12:00P</option>
+              <option value="12:30P">12:30P</option>
+              <option value="1:00P">1:00P</option>
+              <option value="1:30P">1:30P</option>
+              <option value="2:00P">2:00P</option>
+              <option value="2:30P">2:30P</option>
+              <option value="3:00P">3:00P</option>
+              <option value="3:30P">3:30P</option>
+              <option value="4:00P">4:00P</option>
+              <option value="4:30P">4:30P</option>
+              <option value="5:00P">5:00P</option>
+              <option value="5:30P">5:30P</option>
+              <option value="6:00P">6:00P</option>
+              <option value="6:30P">6:30P</option>
+              <option value="7:00P">7:00P</option>
+              <option value="7:30P">7:30P</option>
             </select>
           </div>
           <div class="endTime col-sm-6">
             <h4>Course End Time</h4>
             <select id = "end">
-              <option value="9_00A">09:00A</option>
-              <option value="9_30A">09:30A</option>
-              <option value="10_00A">10:00A</option>
-              <option value="10_30A">10:30A</option>
-              <option value="11_00A">11:00A</option>
-              <option value="11_30A">11:30A</option>
-              <option value="12_00P">12:00P</option>
-              <option value="12_30P">12:30P</option>
-              <option value="1_00P">1:00P</option>
-              <option value="1_30P">1:30P</option>
-              <option value="2_00P">2:00P</option>
-              <option value="2_30P">2:30P</option>
-              <option value="3_00P">3:00P</option>
-              <option value="3_30P">3:30P</option>
-              <option value="4_00P">4:00P</option>
-              <option value="4_30P">4:30P</option>
-              <option value="5_00P">5:00P</option>
-              <option value="5_30P">5:30P</option>
-              <option value="6_00P">6:00P</option>
-              <option value="6_30P">6:30P</option>
-              <option value="7_00P">7:00P</option>
-              <option value="7_30P">7:30P</option>
-              <option value="8_00P">8:00P</option>
-              <option value="8_30P">8:30P</option>
-              <option value="9_00P">9:00P</option>
+              <option value="">Optional</option>
+              <option value="9:00A">09:00A</option>
+              <option value="9:30A">09:30A</option>
+              <option value="10:00A">10:00A</option>
+              <option value="10:30A">10:30A</option>
+              <option value="11:00A">11:00A</option>
+              <option value="11:30A">11:30A</option>
+              <option value="12:00P">12:00P</option>
+              <option value="12:30P">12:30P</option>
+              <option value="1:00P">1:00P</option>
+              <option value="1:30P">1:30P</option>
+              <option value="2:00P">2:00P</option>
+              <option value="2:30P">2:30P</option>
+              <option value="3:00P">3:00P</option>
+              <option value="3:30P">3:30P</option>
+              <option value="4:00P">4:00P</option>
+              <option value="4:30P">4:30P</option>
+              <option value="5:00P">5:00P</option>
+              <option value="5:30P">5:30P</option>
+              <option value="6:00P">6:00P</option>
+              <option value="6:30P">6:30P</option>
+              <option value="7:00P">7:00P</option>
+              <option value="7:30P">7:30P</option>
+              <option value="8:00P">8:00P</option>
+              <option value="8:30P">8:30P</option>
+              <option value="9:00P">9:00P</option>
             </select>
           </div>
         </div>
@@ -109,17 +113,24 @@
         </button>
         <br><br>
     </div>
+    <div class="col-sm-2">
+    </div>
+  </div>
 
-    <div class="courseResults ">
-        <div class="col-md-1">
+
+    <div class="courseResults col-sm-12">
+        <div class="col-sm-1">
         </div>
-        <div class="col-md-10" >
+        <div class="col-sm-10 offset-sm-1" >
           <table class = "table p-3 " id="display" ></table>
+        </div>
+        <div class="col-sm-1">
         </div>
     </div>
 
-    <!--<script src="calculator.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <img src = "img/washu_seal.jpeg">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/populateCourses.js"></script>
     <!--<script src="ajax.js"></script>
     <script src="js/bootstrap.min.js"></script>-->
