@@ -111,9 +111,9 @@ function generateTable() {
                     var time = key + ": " + val;
                     timeAttr = $('<h4>' + time + '</h4>').attr('class', 'col-md-4 time');
 
-                  case "Instructor":
+                  case "instructor":
                     //Professor
-                    var prof = key + ": " + val;
+                    var prof = "Instructor: " + val;
                     professorAttr = $('<h3>' + prof + '</h3>').attr('class', 'col-md-6 instructor');
                   default:
                     break;
